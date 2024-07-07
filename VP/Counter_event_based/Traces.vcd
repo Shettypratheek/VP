@@ -1,0 +1,39 @@
+$date
+     Jun 14, 2024       11:10:29
+$end
+
+$version
+ SystemC 2.3.3-Accellera --- May 31 2024 13:28:47
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var event    1  aaaaa  Event       $end
+$var wire    8  aaaab  Counter_Value [7:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+
+b0 aaaab
+$end
+
+#10000
+1aaaaa
+b1 aaaab
+
+#30000
+1aaaaa
+b10 aaaab
+
+#60000
+1aaaaa
+b11 aaaab
+
